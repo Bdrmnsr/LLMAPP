@@ -1,6 +1,6 @@
-# Backend for LLM Evaluation Service
+# Backend for LLM APP
 
-This backend service is designed to support the LLM Evaluation Web Application by handling data processing, model evaluations, and API requests.
+This backend service is designed to support the LLM Web Application by handling data processing, model evaluations, and API requests.
 
 ## Description
 
@@ -33,9 +33,10 @@ A step by step series of examples that tell you how to get a development environ
    git clone https://github.com/Bdrmnsr/LLMAPP.git
    cd LLMAPP/backend
 
-# Install the required packages:
-pip install -r requirements.txt
+2. Install the required packages and run flask:
+ ```bash
+ pip install -r requirements.txt
+ python app.py
 
-#Run the Flask application:
-flask run
+
 
